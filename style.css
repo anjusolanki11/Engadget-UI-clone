@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+/* Start First section */
+.box1{
+   
+    width: 67%;
+    height: 100%;
+    background-color: rgb(176,84,161);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.endget-text1{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.endget-text img{
+    width: 450px;
+    height: 100px;
+}
+span{
+    width: 100%;
+    height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: white;
+   
+}
+.endget-text h1{
+    font-size: 47px;
+    line-height: 1.8;
+}
+/* End First Section */
+
+/*  start section  section */
+.box2{
+    width: 33%;
+    height: 655px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.endget-text2{
+    width: 100%;
+    height: 220px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    line-height: 5;
+}
+.endget-text2 img{
+    width: 150px;
+    height: 45px;
+}
+.endget-text2 h3{
+    font-size: 23px;
+}
+
+.from-text{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+form{
+    line-height: 3;
+}
+input{
+    height: 50px;
+    border: none;
+}
+
+hr{
+    width: 340px;
+    border: 1px solid skyblue;
+    
+}
+
+.next-btn{
+    width: 340px;
+    height: 40px;
+    background-color: #39c;
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+}
+pre{
+    font-size: 13px;
+    color: #39c; 
+}
+
+.creat-btn{
+    width: 340px;
+    height: 40px;
+    color: #39c;
+    border: 1px solid #39c;
+    font-size: 17px;
+    background-color: transparent;
+   
+}
+.form-text p{
+    font-size: 18px;
+   text-align: center;
+}
+.google-btn{
+    width: 340px;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.69);
+    font-size: 18px;
+    background-color: transparent;
+   
+}
+.form-text p a{
+    color: #39c;
+    text-decoration: none;
+    text-align: center;
+}
+/* End Second Section  */
+
+/* Start Responsive */
+@media (max-width:768px) {
+    .main-container{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:480px) {
+    .main-container{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        width: 100%;
+    }
+    span{
+        line-height: 2;
+    }
+    .endget-text1 h2{
+        font-size: 17px;
+    }
+    .box2{
+        width: 100%;
+    }
+}
+/* End Responsive */
